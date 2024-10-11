@@ -68,7 +68,7 @@ CLIP_MODELS=(
 LORA_MODELS=(
 
 "https://huggingface.co/latent-consistency/lcm-lora-sdxl/resolve/main/pytorch_lora_weights.safetensors"
-"https://huggingface.co/JianfeiChu/MP_001/resolve/main/MP_ZHA_V2.0_SDXL.safetensors"
+"https://huggingface.co/JianfeiChu/MP_003/resolve/main/MP_003_SDXL_V1.safetensors"
 	
 )
 
