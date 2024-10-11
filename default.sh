@@ -53,7 +53,7 @@ CHECKPOINT_MODELS=(
 	"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
 	"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
         # Flux1 dev
-	#"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
+	"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
 )
 
 UNET_MODELS=(
@@ -68,8 +68,10 @@ CLIP_MODELS=(
 LORA_MODELS=(
 
 "https://huggingface.co/latent-consistency/lcm-lora-sdxl/resolve/main/pytorch_lora_weights.safetensors"
+"https://huggingface.co/JianfeiChu/MP_001/resolve/main/MP_ZHA_V2.0_SDXL.safetensors"
 "https://huggingface.co/JianfeiChu/MP_003/resolve/main/MP_003_SDXL_V1.safetensors"
-"https://huggingface.co/JianfeiChu/MP_004/resolve/main/MP_004_SDXL_V1.safetensors?download=true"
+"https://huggingface.co/JianfeiChu/MP_004/resolve/main/MP_004_SDXL_V1.safetensors"
+"https://huggingface.co/JianfeiChu/EXT_002/resolve/main/EXT_002_SDXL_V1.safetensors"
 	
 )
 
