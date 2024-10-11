@@ -43,7 +43,7 @@ NODES=(
 )
 
 WORKFLOWS=(
-	"https://github.com/JianfeiChu/Comfy-cloud/tree/main/workflow"
+	"https://github.com/JianfeiChu/ComfyUI_Workflow"
 )
 
 CHECKPOINT_MODELS=(
