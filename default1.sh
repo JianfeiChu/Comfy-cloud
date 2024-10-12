@@ -72,6 +72,7 @@ LORA_MODELS=(
 "https://huggingface.co/JianfeiChu/MP_003/resolve/main/MP_003_SDXL_V1.safetensors"
 "https://huggingface.co/JianfeiChu/MP_004/resolve/main/MP_004_SDXL_V1.safetensors"
 "https://huggingface.co/JianfeiChu/EXT_002/resolve/main/EXT_002_SDXL_V1.safetensors"
+"https://huggingface.co/JianfeiChu/EXT_001/resolve/main/EXT_001_SDXL_V1.safetensors"
 	
 )
 
