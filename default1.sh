@@ -25,7 +25,7 @@ NODES=(
 	#"https://github.com/MushroomFleet/DJZ-Nodes"
 	#"https://github.com/Gourieff/comfyui-reactor-node"
 	"https://github.com/ltdrdata/ComfyUI-Impact-Pack"
-	#"https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes"
+	"https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes"
 	#"https://github.com/rgthree/rgthree-comfy"
 	#"https://github.com/crystian/ComfyUI-Crystools"
 	#"https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite"
@@ -81,15 +81,15 @@ VAE_MODELS=(
 )
 
 ESRGAN_MODELS=(
-    #"https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
+    "https://huggingface.co/ai-forever/Real-ESRGAN/resolve/main/RealESRGAN_x4.pth"
     #"https://huggingface.co/FacehugmanIII/4x_foolhardy_Remacri/resolve/main/4x_foolhardy_Remacri.pth"
     #"https://huggingface.co/Akumetsu971/SD_Anime_Futuristic_Armor/resolve/main/4x_NMKD-Siax_200k.pth"
 )
 
 CONTROLNET_MODELS=(
 #"https://huggingface.co/XLabs-AI/flux-controlnet-collections/resolve/main/flux-hed-controlnet-v3.safetensors"
-#"https://huggingface.co/XLabs-AI/flux-controlnet-collections/resolve/main/flux-canny-controlnet-v3.safetensors"
-#"https://huggingface.co/XLabs-AI/flux-controlnet-collections/resolve/main/flux-depth-controlnet-v3.safetensors"
+"https://huggingface.co/XLabs-AI/flux-controlnet-collections/resolve/main/flux-canny-controlnet-v3.safetensors"
+"https://huggingface.co/XLabs-AI/flux-controlnet-collections/resolve/main/flux-depth-controlnet-v3.safetensors"
 "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_canny_mid.safetensors"
 "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_depth_mid.safetensors"
    
