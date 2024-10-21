@@ -48,10 +48,11 @@ WORKFLOWS=(
 
 CHECKPOINT_MODELS=(
 	# SD1.5
-        "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
+        #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
+	"https://huggingface.co/JianfeiChu/SD1_5Urbandesign/resolve/main/UrbanDesign_SD1.5_v1.safetensors"
         # SDXL
-	"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
-	"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
+	#"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
+	#"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
         # Flux1 dev
 	"https://huggingface.co/Comfy-Org/flux1-dev/resolve/main/flux1-dev-fp8.safetensors"
 
@@ -68,12 +69,12 @@ CLIP_MODELS=(
 
 LORA_MODELS=(
 
-"https://huggingface.co/latent-consistency/lcm-lora-sdxl/resolve/main/pytorch_lora_weights.safetensors"
-"https://huggingface.co/JianfeiChu/MP_001/resolve/main/MP_ZHA_V2.0_SDXL.safetensors"
-"https://huggingface.co/JianfeiChu/MP_003/resolve/main/MP_003_SDXL_V1.safetensors"
-"https://huggingface.co/JianfeiChu/MP_004/resolve/main/MP_004_SDXL_V1.safetensors"
-"https://huggingface.co/JianfeiChu/EXT_002/resolve/main/EXT_002_SDXL_V1.safetensors"
-"https://huggingface.co/JianfeiChu/EXT_001/resolve/main/EXT_001_SDXL_V1.safetensors"
+#"https://huggingface.co/latent-consistency/lcm-lora-sdxl/resolve/main/pytorch_lora_weights.safetensors"
+"https://huggingface.co/JianfeiChu/MP_001/resolve/main/MP_001_Flux_V1.safetensors"
+"https://huggingface.co/JianfeiChu/MP_003/resolve/main/MP_003_Flux_V1.safetensors"
+"https://huggingface.co/JianfeiChu/MP_004/resolve/main/MP_004_flux_V1.safetensors"
+"https://huggingface.co/JianfeiChu/EXT_002/resolve/main/EXT_002_Flux_V1.safetensors"
+#"https://huggingface.co/JianfeiChu/EXT_001/resolve/main/EXT_001_SDXL_V1.safetensors"
 	
 )
 
@@ -92,8 +93,11 @@ CONTROLNET_MODELS=(
 #"https://huggingface.co/XLabs-AI/flux-controlnet-collections/resolve/main/flux-hed-controlnet-v3.safetensors"
 "https://huggingface.co/XLabs-AI/flux-controlnet-collections/resolve/main/flux-canny-controlnet-v3.safetensors"
 "https://huggingface.co/XLabs-AI/flux-controlnet-collections/resolve/main/flux-depth-controlnet-v3.safetensors"
-"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_canny_mid.safetensors"
-"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_depth_mid.safetensors"
+#"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_canny_mid.safetensors"
+#"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_depth_mid.safetensors"
+"https://huggingface.co/JianfeiChu/Controlnet/resolve/main/control_v11f1p_sd15_depth.pth"
+"https://huggingface.co/JianfeiChu/Controlnet/resolve/main/control_v11p_sd15_canny.pth"
+"https://huggingface.co/JianfeiChu/Controlnet/resolve/main/control_v11p_sd15_seg.pth"
    
 )
 
