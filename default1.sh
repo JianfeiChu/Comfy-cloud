@@ -69,7 +69,7 @@ CLIP_MODELS=(
 
 LORA_MODELS=(
 
-#"https://huggingface.co/latent-consistency/lcm-lora-sdxl/resolve/main/pytorch_lora_weights.safetensors"
+"https://huggingface.co/latent-consistency/lcm-lora-sdxl/resolve/main/pytorch_lora_weights.safetensors"
 #"https://huggingface.co/JianfeiChu/EXT_001/resolve/main/EXT_001_SDXL_V1.safetensors"
 #Flux
 "https://huggingface.co/JianfeiChu/MP_001/resolve/main/MP_001_Flux_V1.safetensors"
@@ -107,8 +107,8 @@ CONTROLNET_MODELS=(
 "https://huggingface.co/JianfeiChu/Controlnet/resolve/main/FLUX.1-dev-ControlNet-Union-Pro.safetensors"
 #"https://huggingface.co/XLabs-AI/flux-controlnet-collections/resolve/main/flux-hed-controlnet-v3.safetensors"
 #SDXL
-#"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_canny_mid.safetensors"
-#"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_depth_mid.safetensors"
+"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_canny_mid.safetensors"
+"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_depth_mid.safetensors"
 #SD1.5
 #"https://huggingface.co/JianfeiChu/Controlnet/resolve/main/control_v11f1p_sd15_depth.pth"
 #"https://huggingface.co/JianfeiChu/Controlnet/resolve/main/control_v11p_sd15_canny.pth"
