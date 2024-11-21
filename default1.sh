@@ -110,9 +110,9 @@ CONTROLNET_MODELS=(
 "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_canny_mid.safetensors"
 "https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_depth_mid.safetensors"
 #SD1.5
-#"https://huggingface.co/JianfeiChu/Controlnet/resolve/main/control_v11f1p_sd15_depth.pth"
-#"https://huggingface.co/JianfeiChu/Controlnet/resolve/main/control_v11p_sd15_canny.pth"
-#"https://huggingface.co/JianfeiChu/Controlnet/resolve/main/control_v11p_sd15_seg.pth"
+"https://huggingface.co/JianfeiChu/Controlnet/resolve/main/control_v11f1p_sd15_depth.pth"
+"https://huggingface.co/JianfeiChu/Controlnet/resolve/main/control_v11p_sd15_canny.pth"
+"https://huggingface.co/JianfeiChu/Controlnet/resolve/main/control_v11p_sd15_seg.pth"
 
    
 )
