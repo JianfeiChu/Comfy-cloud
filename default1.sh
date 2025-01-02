@@ -48,8 +48,8 @@ WORKFLOWS=(
 
 CHECKPOINT_MODELS=(
 	# SD1.5
-       # "https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
-	#"https://huggingface.co/JianfeiChu/SD1_5Urbandesign/resolve/main/UrbanDesign_SD1.5_v1.safetensors"
+        #"https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt"
+	"https://huggingface.co/JianfeiChu/SD1_5Urbandesign/resolve/main/UrbanDesign_SD1.5_v1.safetensors"
         # SDXL
 	#"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
 	#"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
@@ -86,6 +86,15 @@ LORA_MODELS=(
 "https://huggingface.co/JianfeiChu/LoRA/resolve/main/MP_001_Flux_V1.safetensors"
 "https://huggingface.co/JianfeiChu/LoRA/resolve/main/MP_003_Flux_V1.safetensors"
 "https://huggingface.co/JianfeiChu/LoRA/resolve/main/MP_004_flux_V1.safetensors"
+#1.5
+"https://huggingface.co/JianfeiChu/LoRA/resolve/main/EXT_001_SD1.5_V2.safetensors"
+"https://huggingface.co/JianfeiChu/LoRA/resolve/main/EXT_002_SD1.5_V3.safetensors"
+"https://huggingface.co/JianfeiChu/LoRA/resolve/main/EXT_003_SD1.5_V1.safetensors"
+"https://huggingface.co/JianfeiChu/LoRA/resolve/main/EXT_004_SD1.5_V1.safetensors"
+"https://huggingface.co/JianfeiChu/LoRA/resolve/main/EXT_005_SD1.5_v1.safetensors"
+"https://huggingface.co/JianfeiChu/LoRA/resolve/main/EXT_006_SD1.5_V1.safetensors"
+"https://huggingface.co/JianfeiChu/LoRA/resolve/main/EXT_007_SD1.5_V1.safetensors"
+"https://huggingface.co/JianfeiChu/LoRA/resolve/main/EXT_008_SD1.5_V1.safetensors"
 
 )
 
@@ -110,9 +119,9 @@ CONTROLNET_MODELS=(
 #"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_canny_mid.safetensors"
 #"https://huggingface.co/lllyasviel/sd_control_collection/resolve/main/diffusers_xl_depth_mid.safetensors"
 #SD1.5
-#"https://huggingface.co/JianfeiChu/Controlnet/resolve/main/control_v11f1p_sd15_depth.pth"
-#"https://huggingface.co/JianfeiChu/Controlnet/resolve/main/control_v11p_sd15_canny.pth"
-#"https://huggingface.co/JianfeiChu/Controlnet/resolve/main/control_v11p_sd15_seg.pth"
+"https://huggingface.co/JianfeiChu/Controlnet/resolve/main/control_v11f1p_sd15_depth.pth"
+"https://huggingface.co/JianfeiChu/Controlnet/resolve/main/control_v11p_sd15_canny.pth"
+"https://huggingface.co/JianfeiChu/Controlnet/resolve/main/control_v11p_sd15_seg.pth"
 
    
 )
